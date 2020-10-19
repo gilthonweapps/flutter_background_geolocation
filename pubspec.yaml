@@ -7,7 +7,10 @@ dependencies:
   flutter:
     sdk: flutter
   meta: ^1.0.5
-  background_fetch: ^0.6.0
+  background_fetch:
+    git:
+      url: https://github.com/gilthonweapps/flutter_background_fetch.git
+      ref: master
 
 flutter:
   plugin:
